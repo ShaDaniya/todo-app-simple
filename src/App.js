@@ -4,7 +4,7 @@ import TodoForm from './components/Todos/TodoForm';
 import TodoList from './components/Todos/TodoList';
 
 function App() {
-  const [todos, setTodos] = useState(['daniya', 'rustem'])
+  const [todos, setTodos] = useState([])
   const addTodoHandler = (text) => {
     setTodos([...todos, text])
   }
